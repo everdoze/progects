@@ -1,0 +1,49 @@
+# depslib dependency file v1.0
+1417166780 source:/home/n76/Документы/proj/glus/db.cpp
+	"db.h"
+
+1417166745 /home/n76/Документы/proj/glus/db.h
+	<fstream>
+	"list.h"
+
+1417166896 /home/n76/Документы/proj/glus/list.h
+	<string>
+
+1417166960 source:/home/n76/Документы/proj/glus/list.cpp
+	"list.h"
+
+1416159714 source:/home/n76/Документы/proj/glus/main.cpp
+	"menu.h"
+
+1417014474 /home/n76/Документы/proj/glus/menu.h
+	<iostream>
+	<string>
+	"db.h"
+
+1417167285 source:/home/n76/Документы/proj/glus/menu.cpp
+	"menu.h"
+
+1417166780 source:/home/andrew/Документы/glus/db.cpp
+	"db.h"
+
+1417166744 /home/andrew/Документы/glus/db.h
+	<fstream>
+	"list.h"
+
+1417166896 /home/andrew/Документы/glus/list.h
+	<string>
+
+1417167534 source:/home/andrew/Документы/glus/list.cpp
+	"list.h"
+
+1416159714 source:/home/andrew/Документы/glus/main.cpp
+	"menu.h"
+
+1417014474 /home/andrew/Документы/glus/menu.h
+	<iostream>
+	<string>
+	"db.h"
+
+1417167284 source:/home/andrew/Документы/glus/menu.cpp
+	"menu.h"
+
