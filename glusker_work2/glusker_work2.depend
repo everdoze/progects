@@ -1,0 +1,79 @@
+# depslib dependency file v1.0
+1417239991 source:/home/andrew/Документы/Практика_Глусак/glusker_work2/main.cpp
+	"menu.h"
+
+1417185461 /home/andrew/Документы/Практика_Глусак/glusker_work2/menu.h
+	<iostream>
+	<string>
+	"node.h"
+
+1417239056 /home/andrew/Документы/Практика_Глусак/glusker_work2/node.h
+	<string>
+
+1417240279 source:/home/andrew/Документы/Практика_Глусак/glusker_work2/menu.cpp
+	<iostream>
+	<string>
+	<cstdlib>
+	"menu.h"
+
+1417239808 source:/home/andrew/Документы/Практика_Глусак/glusker_work2/node.cpp
+	<string>
+	"node.h"
+	<iostream>
+
+1417240557 source:/home/andrew/Документы/Практика_Глуcак/glusker_work2/main.cpp
+	"menu.h"
+
+1417264545 /home/andrew/Документы/Практика_Глуcак/glusker_work2/menu.h
+	<iostream>
+	<string>
+	"node.h"
+	"Практика_Глускер/glusker_work2/file_rw.h"
+
+1417248307 /home/andrew/Документы/Практика_Глуcак/glusker_work2/node.h
+	<string>
+
+1417245880 source:/home/andrew/Документы/Практика_Глуcак/glusker_work2/menu.cpp
+	<iostream>
+	<string>
+	<cstdlib>
+	"menu.h"
+
+1417263557 source:/home/andrew/Документы/Практика_Глуcак/glusker_work2/node.cpp
+	<string>
+	"node.h"
+	<iostream>
+	<cstdlib>
+
+1419064707 source:/home/andrew/Документы/Практика_Глуcкер/glusker_work2/file_rw.cpp
+	"file_rw.h"
+
+1419063075 /home/andrew/Документы/Практика_Глуcкер/glusker_work2/file_rw.h
+	<fstream>
+	<iostream>
+	"node.h"
+
+1417451873 /home/andrew/Документы/Практика_Глуcкер/glusker_work2/node.h
+	<string>
+
+1419064245 source:/home/andrew/Документы/Практика_Глуcкер/glusker_work2/main.cpp
+	"menu.h"
+
+1418574857 /home/andrew/Документы/Практика_Глуcкер/glusker_work2/menu.h
+	<iostream>
+	<string>
+	"file_rw.h"
+
+1419053887 source:/home/andrew/Документы/Практика_Глуcкер/glusker_work2/node.cpp
+	<string>
+	"node.h"
+	<iostream>
+	<cstdlib>
+
+1419053834 source:/home/andrew/Документы/Практика_Глуcкер/glusker_work2/menu.cpp
+	<iostream>
+	<string>
+	<stdio.h>
+	<cstdlib>
+	"menu.h"
+
