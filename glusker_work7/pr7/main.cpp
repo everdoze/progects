@@ -86,4 +86,22 @@ int main ()
     {
         cout << tmp->n << endl;
     }
+    tmp = head;
+    while(tmp)
+    {
+        tpp = tmp;
+        tmp = tmp->next;
+        delete tpp;
+    }
 }
+/*
+==9736==
+==9736== HEAP SUMMARY:
+==9736==     in use at exit: 0 bytes in 0 blocks
+==9736==   total heap usage: 9 allocs, 9 frees, 144 bytes allocated
+==9736==
+==9736== All heap blocks were freed -- no leaks are possible
+==9736==
+==9736== For counts of detected and suppressed errors, rerun with: -v
+==9736== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+*/
