@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1425038828 source:/home/andrew/.github/progects/glusker_work7/pr7/main.cpp
+	<iostream>
+	<cstdlib>
+	<limits>
+
