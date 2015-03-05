@@ -1,0 +1,29 @@
+# depslib dependency file v1.0
+1425523771 source:/home/andrew/.github/progects/glusker_work15/books.cpp
+	"books.h"
+	<iostream>
+
+1425523481 /home/andrew/.github/progects/glusker_work15/books.h
+	"parent.h"
+	<string>
+
+1425522848 /home/andrew/.github/progects/glusker_work15/parent.h
+	<string>
+
+1425523707 source:/home/andrew/.github/progects/glusker_work15/discs.cpp
+	"discs.h"
+
+1425523608 /home/andrew/.github/progects/glusker_work15/discs.h
+	"parent.h"
+	<iostream>
+	<string>
+
+1425523461 source:/home/andrew/.github/progects/glusker_work15/main.cpp
+	<string>
+	"discs.h"
+	"books.h"
+	<time.h>
+
+1425522848 source:/home/andrew/.github/progects/glusker_work15/parent.cpp
+	"parent.h"
+
