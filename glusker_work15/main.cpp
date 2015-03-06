@@ -2,12 +2,18 @@
 #include "discs.h"
 #include "books.h"
 #include <time.h>
+#include <iostream>
 
-struct t_list
+struct d_list
 {
-    discs *_discs = new discs();
-    books *_books = new books();
-    t_list* next;
+    discs *_discs;
+    d_list* next;
+};
+
+struct b_list
+{
+    books *_books;
+    b_list *next;
 };
 
 
@@ -26,17 +32,20 @@ int main ()
 {
     srand(time(NULL));
     //рандом
-    t_list *head = new t_list();
-    t_list *el;
+    b_list *b_head = new b_list();
+    d_list *d_head = new d_list();
+    b_head->_books = new books();
+    d_head->_discs = new discs();
 
-    head->_books->setName(str_rand());
-    head->_books->setAuthor(str_rand());
-    head->_books->setPages(rand()%200+100);
-    head->_books->setPrice(rand()%400+100);
-    head->_discs->setName(str_rand());
-    head->_discs->setP_list_size(rand()%20+5);
-    head->_discs->setPrice(rand()%300+200);
+    b_head->_books->setName(str_rand());
+    b_head->_books->setAuthor(str_rand());
+    b_head->_books->setPages(rand()%200+100);
+    b_head->_books->setPrice(rand()%400+100);
+    d_head->_discs->setName(str_rand());
+    d_head->_discs->setP_list_size(rand()%20+5);
+    d_head->_discs->setPrice(rand()%300+200);
 
-    head->_books->view();
-    head->_discs->view();
+    b_head->_books->view();
+    cout << endl;
+    d_head->_discs->view();
 }
