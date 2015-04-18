@@ -3,6 +3,12 @@
 
 using namespace std;
 
+int x;
+int y;
+int z;
+
+extent "C" float go(int,int,int);
+
 int main()
 {
     cout << "Здрастите, числа введите!" << endl;
